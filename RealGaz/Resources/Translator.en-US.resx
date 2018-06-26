@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="AboutText" xml:space="preserve">
+    <value>RealGaz is operating on the gas sales market of Azerbaijan for more than 15 years. The company is engaged in the sales and services of industrial, technical, medical and specialty gases, as well as gas mixtures. We have our own laboratory where we analyze all gases, which we produce at our plant and have for sale.
+With a higher capacity production and integrated sales network, RealGaz is committed to serving the customers with prompt delivery to any location in Azerbaijan, Georgia and Kazakhstan.
+
+We have local office in Tbilisi, Georgia and perform the supply of industrial gases to the companies having activity in oil and gas and construction sectors of Georgia.
+Industrial gases are a group of gases that are specifically manufactured for use in a wide range of industries, which include oil and gas, petrochemicals, chemicals, power, mining steelmaking, metals, environmental protection, Their production is a part of the wider Chemical Industry (where industrial gases are often seen as "speciality chemicals").
+The principal gases provided are nitrogen, oxygen, carbon dioxide, argon, hydrogen, helium and acetylene; although a huge variety of gases and mixtures are available in gas cylinders. The industry producing these gases is known as the Industrial Gases industry which is seen as also encompassing the supply of equipment and technology to produce and use the gases.
+RealGaz has a permit from the Ministry Emergency situations for hydro testing of cylinders. The Company accepts the orders for hydraulic testing oxygen, nitrogen and argon cylinders for safety with delivery certificate.
+RealGaz has implemented the best international standards in its work to guarantee the corporate clients the best quality of products and services. The companies selected RealGaz as an industrial gases provider taking into account the attitude of the company to the quality of products produced and services provided.
+RealGaz was awarded the International Organization for Standardization (ISO) 9001:2000 certificate in 07.12. 2005. RealGaz has been awarded OHSAS 18001 Certificate. The certificate is valid for Manufacture and Distribution of Industrial Gas and Provision of Sales Services of Gas Equipments. In order to improve further the internal management system and services provided to our clients RealGaz decided to apply an Integrated Management System complying with the International Standards. RealGaz has developed and implemented IMS in compliance with the International Standards ISO 9001:2008, ISO 14001:2004 and OHSAS 18001:2007. As a result the company has been awarded the Certificates according to these Standards.
+As a result of conducted poll among 7,000 members of Trade Leaders’ Club from 95 countries, our Company has been awarded the International Award for the Best Trade Name (New Millennium Award) as recognition for its trajectory and business excellence. Madrid, on the 22nd of May, 2006. In 2007 RealGaz was awarded by BP Enterprise Center in the nomination of Best Business Awards. RealGaz received “The Majestic Five Continents Award for Quality &amp; Excellence”, which was awarded in Switzerland, Geneve on the 20th of December, 2008 as an entity for corporate achievement and recognition of the Quality &amp; Excellence of products and services provided by the company. During the forum of BP “MEET THE BUYER 2014” organized within the International Caspian Oil and Gas exhibition 2014, RealGaz was awarded by BP as the company with “THE BEST HSE PERFOMANCE”.
+We are proud to announce that the Trade Mark of RealGaz was registered by the State Committee of Azerbaijan Republic on Standardization, Metrology and Patent on 22.06.</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="ContactForm" xml:space="preserve">
+    <value>Contact Form</value>
+  </data>
+  <data name="Contacts" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="FollowUs" xml:space="preserve">
+    <value>Follow us</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="OfficeAddress" xml:space="preserve">
+    <value>Georgia Office. Tbilisi city, D. Bakradze Street 6, 8-th floor</value>
+  </data>
+  <data name="OurServices" xml:space="preserve">
+    <value>Our Services</value>
+  </data>
+  <data name="OurServicesText_Col1_Content" xml:space="preserve">
+    <value>We have gas cylinder racks with or without manifold system for onshore and offshore usage, c/w 12, 16, 48 or 64 cylinders, 150bar, 200bar and 300bar, with the volume 40Ltr and 50Ltr. All the racks are being manufactured at our site, in accordance with the rack design calculation especially prepared for our company and are according to the DNV standard 2.7.1. Our racks are being tested and certified for lifting once per year and according certificate is provided. We have the gas racks for Oxygen, Argon and Argomixes, Nitrogen, Carbon Dioxide, Propane, Acetylene, Helium. The racks are supplied on rental base and can be offered for the sale.</value>
+  </data>
+  <data name="OurServicesText_Col1_Header" xml:space="preserve">
+    <value>SUPPLY OF GAS RACKS</value>
+  </data>
+  <data name="OurServicesText_Col2_Content" xml:space="preserve">
+    <value>Our company has the permit from the Ministry for Emergency Situations allowed to perform the hydrotesting of gas cylinders, giving the warranty for usage of the cylinders during 5 years. On the base of results of this test we provide the according certificate for all of our cylinders and the cylinders of our Customers received for the testing against their orders. We also perform the painting of the cylinders in accordance with the color coding, the replacement of the valves, the refurbishing and repair. We supply our gases only in the tested cylinders and provide the Certificates both for cylinder and gas .</value>
+  </data>
+  <data name="OurServicesText_Col2_Header" xml:space="preserve">
+    <value>OPERATIONS WITH THE GAS CYLINDERS</value>
+  </data>
+  <data name="OurServicesText_Col3_Content" xml:space="preserve">
+    <value>We have license for dangerous goods transportation and provide the delivery of the gas cylinders to the places upon the orders of our Customer. For this purpose we use the vehicles specially completed for dangerous goods transportation in accordance with the requirements of local governmental organizations and our Customers. Moreover, we have special transportation tank for delivery of LIN, LOX and LAR, with the capacity 14m3.</value>
+  </data>
+  <data name="OurServicesText_Col3_Header" xml:space="preserve">
+    <value>TRANSPORTATION</value>
+  </data>
+  <data name="OurServicesText_Col4_Content" xml:space="preserve">
+    <value>We provide the collection of waste gas cylinders of any type from the sites and perform the utilization process. We accept the orders for utilization of gas cylinders, fire extinguishers, cylinders for refrigerants, etc. As soon as the valves are dismounted, the cylinders are completely empty and damaged in order to prevent their recycling, they can be returned to the Customer or taken to the metal scrap.</value>
+  </data>
+  <data name="OurServicesText_Col4_Header" xml:space="preserve">
+    <value>UTILIZATION OF THE WASTE CYLINDERS</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="Products" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="Products_Acetylene_Header" xml:space="preserve">
+    <value>Acetylene</value>
+  </data>
+  <data name="Products_Acetylene_Large_Content" xml:space="preserve">
+    <value>Acetylene (systematic name: ethyne) is the chemical compound with the formula QHj. It is a hydrocarbon and the simplest alkyne. This colorless gas is widely used as a fuel and a chemical building block. It is unstable in pure form and thus is usually handled as a solution.Pure acetylene is odorless, but commercial grades usually have a marked odor due to impurities.
+Approximately 20 percent of acetylene is supplied by the industrial gases industry for oxyacetylene gas welding and cutting due to the high temperature of the flame; combustion of acetylene with oxygen produces a flame of over 3600 K (3300 °C, 6000 °F), releasing 11.8 kj/g. Oxyacetylene is the hottest burning common fuel gas.Acetylene is the third hottest natural chemical flame after dicyanoacetylene's5260 K (4990 °C, 9010 °F) and cyanogen at4798 K (4525 °C, 8180 °F). Oxy-acetylene welding was a very popular welding process in previous decades; however, the development and advantages of arc-based welding processes have made oxy-fuel welding nearly extinct for many applications. Acetylene usage for welding has dropped significantly. On the other hand, oxy-acetylene welding equipment is quite versatile - not only because the torch is preferred for some sorts of iron or steel welding (as in certain artistic applications), but also because it lends itself easily to brazing, braze-welding, metal heating (for annealing or tempering, bending or forming), the loosening of corroded nuts and bolts, and other applications. Bell Canada cable repair technicians still use portable acetylene fueled torch kits as a soldering tool for sealing lead sleeve splices in manholes and in some aerial locations. Oxyacetylene welding may also be used in areas where electricity is not readily accessible. As well, oxy-fuel cutting is still very popular and oxy-acetylene cutting is utilized in nearly every metal fabrication shop. For use in welding and cutting, the working pressures must be controlled by a regulator, since above 15 psi, if subjected to a shockwave (caused for example by a flashback), acetylene will decompose explosively into hydrogen and carbon.
+Acetylene is not especially toxic but, when generated from calcium carbide, it can contain toxic impurities such as traces of phosphine and arsine, which give it a distinct garlic-like smell. It is also highly flammable, as most light hydrocarbons, hence its use in welding. Its most singular hazard is associated with its intrinsic instability, especially when it is pressurized: under certain conditions acetylene can react in an exothermic addition-type reaction to form a number of products, typically benzene and/or vinylacetylene, possibly in addition to lamp black and hydrogen. Consequently, acetylene, if initiated by intense heat or a shockwave, can decompose explosively if the absolute pressure of tire gas exceeds about 200 kPa (29 psi). Most regulators and pressure gauges on equipment report gauge pressure and the safe limit for acetylene therefore is 101 kPaor 15 psig. It is therefore shipped and stored dissolved in acetone or dimethylformamide(DMF),contained in a gas cylinder with a porous filling (Agamassan), which renders it safe to transport and use, given proper handling. Copper catalyses the decomposition of acetylene and as a result acetylene should not be transported in copper pipes. Brass pipe fittings should also be avoided.</value>
+  </data>
+  <data name="Products_Acetylene_Small_Content" xml:space="preserve">
+    <value>Acetylene (systematic name: ethyne) is the chemical compound with the formula QHj. It is a hydrocarbon and the simplest alkyne. This colorless gas is widely used as a fuel and a ch...</value>
+  </data>
+  <data name="Products_ArgonCarbonDioxide_Header" xml:space="preserve">
+    <value>Argon-carbon dioxide</value>
+  </data>
+  <data name="Products_ArgonCarbonDioxide_Large_Content" xml:space="preserve">
+    <value>© C-50 (50% argon/50% C02) is used for short arc welding of pipes,
+® C-40 (60% argon/40% C02) is used for some flux-cored arc welding cases. Better weld penetration than C-25.
+© C-25 (75% argon/25% C02) is commonly used by hobbyists and in small-scale production.
+Limited to short circuit and globular transfer welding. Common for short-circuit gas metal arc welding of low carbon steel.
+© C-20 (80% argon/20% C02) is used for short-circuiting and spray transfer of carbon steel.
+© C-15 (85% argon/15% C02) is common in production environment for carbon and low alloy steels. Has lower spatter and good weld penetration, suitable for thicker plates and steel significantly covered with mill scale. Suitable for short circuit, globular, pulse and spray transfer welding. Maximum productivity for thin metals in short-circuiting mode; has lower tendency to bum through than higher-C02 mixes and has suitably high deposition rates.
+© C-10 (90% argon/10% COz) is common in production environment. Has low spatter and good weld penetration, though lower than C-15 one; suitable for many steels. Same applications as 85/15 mix. Sufficient for ferritic stainless steels.
+® C-5 (95% argon/5% COJ is used for pulse spray transfer and short-circuiting of low alloy steel. Has better tolerance for mill scale and better puddle control than argon-oxygen, though less than C-10. Less heat than C-10.Suffident for ferritic stainless steels. Similar performance to argon with 1% oxygen.
+© Argon-oxygen
+© 0-5 (95% argon/5% oxygen) is the most common gas for general carbon steel welding. Higher oxygen content allows higher speed of welding. More than 5% oxygen makes the shielding gas oxidize the electrode, which can lead to porosity in the deposit if the electrode does not contain sufficient deoxidizers.
+© 0-2 (98% argon/2% oxygen) is used for spray arc on stainless steel, carbon steels, and low alloy steels. Better wetting than 0-1. Weld is darker and more oxidized than with 0-1. The addition of 2% oxygen encourages spray transfer, which is critical for spray-arc and pulsed spray-arc GMAW.
+© 0-1 (99% argon/1% oxygen) is used for stainless steels. Oxygen stabilizes the arc.
+Others
+© Argon with 25-35% helium and 1-2% C02 provides high productivity and good welds on austenitic stainless steels. Can be used for joining stainless steel to carbon steel.
+® Argon-COz with 1-2% hydrogen provides a reducing atmosphere that lowers amount of oxide on the weld surface, improves wetting and penetration. Good for austenitic stainless steels.
+© Argon with 2-5% nitrogen and 2-5% C02 in short-circuiting yields good weld shape and color and increases welding speed. For spray and pulsed spray transfer it is nearly equivalent to other trimixes. When joining stainless to carbon steels in presence of nitrogen, care has to be taken to ensure the proper weld microstructure. Nitrogen increases arc stability and penetration and reduces distortion of the welded part. In duplex stainless steels assists in maintaining proper nitrogen content.
+85-95% helium with 5-10% argon and 2-5% C02 is an industry standard for short-circuit welding of carbon steel.
+The applications of shielding gases are limited primarily by the cost of the gas, the cost of the equipment, and by the ocation of the welding. Some shielding gases, like argon, are expensive, limiting its use. The equipment used for the delivery of the gas is also an added cost, and as a result, processes like shielded metal arc welding, which require less expensive quipment, might be preferred in certain situations. Finally, because atmospheric movements can cause the dispersion of the shielding gas around the weld, welding processes that require shielding gases are often only done indoors, where the environment is stable and atmospheric gases can be effectively prevented from entering the weld area.
+The desirable rate of gas flow depends primarily on weld geometry, speed, current, the type of gas, and the metal transfer mode being utilized. Welding flat surfaces requires higher flow than welding grooved materials, since the gas is dispersed more quickly. Faster welding speeds, in general, mean that more gas needs to be supplied to provide adequate coverage. Additionally, higher current requires greater flow, and generally, more helium is required to provide adequate coverage than argon. Perhaps most importantly, the four primary variations of GMAW have differing shielding gas flow equipments—for the small weld pools of the short circuiting and pulsed spray modes, about 10 L/min (20 flf/h) is generally suitable, while for globular transfer, around 15 L/min (30 ftyh) is preferred. The spray transfer variation normally requires more because of its higher heat input and thus larger weld pool; along the lines of 20-25 L/min (40-50 ft3/h).</value>
+  </data>
+  <data name="Products_ArgonCarbonDioxide_Small_Content" xml:space="preserve">
+    <value>© C-50 (50% argon/50% C02) is used for short arc welding of pipes,
+                                        ® C-40 (60% argon/40% C02) is used for some flux-cored arc welding cases. Better weld penetration than C-25....</value>
+  </data>
+  <data name="Products_Argon_Header" xml:space="preserve">
+    <value>Argon</value>
+  </data>
+  <data name="Products_Argon_Large_Content" xml:space="preserve">
+    <value>Argon is a chemical element with symbol Ar and atomic number 18. It is in group 18 of the periodic table and is a noble gas. Argon is the third most common gas in the Earth's atmosphere, at 0.93% (9,300 ppm), making it approximately 23.8 times as abundant as the next most common atmospheric gas, carbon dioxide (390 ppm), and more than 500 times as abundant as the next most common noble gas, neon (18 ppm). Nearly all of this argon is radiogenic argon-40derived from the decay of potassium-40 in the Earth's crust. In the universe, argon-36 is by far the most common argonisotope, being the preferred argon isotope produced by stellar nucleosynthesis in supernovas.
+There are several different reasons argon is used in particular applications:
+@ An inert gas is needed. In particular, argon is the cheapest alternative when nitrogen is not sufficiently inert.
+6) Low thermal conductivity is required.
+© The electronic properties (ionization and/or the emission spectrum) are necessary.
+Other noble gases would probably work as well in most of these applications, but argon is by far the cheapest. Argon is inexpensive since it occurs naturally in air, and is readily obtained as a byproduct of cryogenic air separation in the production of liquid oxygen and liquid nitrogen: the primary constituents of air are used on a large industrial scale. The other noble gases (except helium) are produced this way as well, but argon is the most plentiful by far. The bulk of argon applications arise simply because it is inert and relatively cheap.
+Argon is used in some high-temperature industrial processes, where ordinarily non-reactive substances become reactive. For example, an argon atmosphere is used in graphite electric furnaces to prevent the graphite from burning.
+For some of these processes, the presence of nitrogen or oxygen gases might cause defects within the material. Argon is used in various types of arc welding such as gas metal arc welding and gas tungsten arc welding as well as in the processing of titanium and other reactive elements. An argon atmosphere is also used for growing crystals of silicon and germanium.
+Argon is used in the poultry industry to asphyxiate birds, either for mass culling following disease outbreaks, or as a means of slaughter more humane than the electric bath. Argon's relatively high density causes it to remain dose to the ground during gassing. Its non-reactive nature makes it suitable in a food product, and since it replaces oxygen within the dead bird, argon also enhances shelf life.
+Argon is sometimes used for extinguishing fires where damage to equipment is to be avoided.</value>
+  </data>
+  <data name="Products_Argon_Small_Content" xml:space="preserve">
+    <value>Argon is a chemical element with symbol Ar and atomic number 18. It is in group 18 of the periodic table and is a noble gas. Argon is the third most abundant gas in the Earth's atm...</value>
+  </data>
+  <data name="Products_CarbonDioxide_Header" xml:space="preserve">
+    <value>Carbon dioxide</value>
+  </data>
+  <data name="Products_CarbonDioxide_Large_Content" xml:space="preserve">
+    <value>Carbon dioxide (chemical formula C02) is a naturally-occurring chemical compound composed of 2 oxygen atom seach covalently double bonded to a single carbon atom. It is a gas at standard temperature and pressure and exists in Earth's atmosphere in this state, as a trace gas at a concentration of 0.04 per cent (400 ppm) by volume, as of 2014. Carbon dioxide is used by the food industry, the oil industry, and the chemical industry.
+It is one of the most commonly used compressed gases for pneumatic (pressurized gas) systems in portable pressure tools. Carbon dioxide is also used as an atmosphere for welding, although in the welding arc, it reacts to oxidize most metals. Use in the automotive industry is common despite significant evidence that welds made in carbon dioxide are more brittle than those made in more inert atmospheres, and that such weld joints deteriorate over time because of the formation of carbonic acid. It is used as a welding gas primarily because it is much less expensive than more inert gases such as argon or helium. It is used in many consumer products that require pressurized gas because it is inexpensive and nonflammable, and because it undergoes a phase transition from gas to liquid at room temperature at an attainable pressure of approximately 60 bar (870 psi, 59 atm), allowing far more carbon dioxide to fit in a given container than otherwise would. Life jackets often contain canisters of pressured carbon dioxide for quick inflation. Aluminium capsules of C02 are also sold as supplies of compressed gas for airguns, paintball markers, inflating bicycle tires, and for making carbonated water. Rapid vaporization of liquid carbon dioxide is used for blasting in coal mines. High concentrations of carbon dioxide can also be used to kill pests. Liquid carbon dioxide is used in supercritical drying of some food products and technological materials, in the preparation of specimens for scanning electron microscopy and in five decaffeination of coffee beans.
+Carbon dioxide extinguishes flames, and some fire extinguishers, especially those designed for electrical fires, contain liquid carbon dioxide under pressure. Carbon dioxide extinguishers work well on small flammable liquid and electrical fires, but not on ordinary combustible fires, because although it excludes oxygen, it does not cool the burning substances significantly and when the carbon dioxide disperses they are free to catch fire upon exposure to atmospheric oxygen. Carbon dioxide has also been widely used as an extinguishing agent in fixed fire protection systems for local application of specific hazards and total flooding of a protected space. International Maritime Organization standards also recognize carbon dioxide systems for fire protection of ship holds and engine rooms. Carbon dioxide based fire protection systems have been linked to several deaths, because it can cause suffocation in sufficiently high concentrations. A review of C02 systems identified 51 incidents between 1975 and the date of the report, causing 72 deaths and 145 injuries.
+Liquid carbon dioxide is a good solvent for many lipophilic organic compounds and is used to remove caffeine from coffee. Carbon dioxide has attracted attention in the pharmaceutical and other chemical processing industries as a less toxic alternative to more traditional solvents such as organochlorides. It is used by some dry cleaners for this reason
+Carbon dioxide is used in enhanced oil recovery where it is injected into or adjacent to producing oil wells, usually under supercritical conditions, when it becomes miscible with the oil. This approach can increase original oil recovery by reducing residual oil saturation by between 7 per cent to 23 per cent additional to primary extraction. lt acts as both a pressurizing agent and, when dissolved into the underground crude oil, significantly reduces its viscosity, and changing surface chemistry enabling the oil to flow more rapidly through the reservoir to the removal welkin mature oil fields, extensive pipe networks are used to carry the carbon dioxide to the injection points.
+Liquid and solid carbon dioxide are important refrigerants, especially in the food industry, where they are employed during the transportation and storage of ice cream and other frozen foods. Solid carbon dioxide is called "dry ice" and is used for small shipments where refrigeration equipment is not practical. Solid carbon dioxide is always below -78.5 °C at regular atmospheric pressure, regardless of the air temperature.</value>
+  </data>
+  <data name="Products_CarbonDioxide_Small_Content" xml:space="preserve">
+    <value>Carbon dioxide (chemical formula CO2) is a colorless and odorless gas vital to life on Earth. This naturally occurring chemical compound is composed of a carbon atom covalently dou...</value>
+  </data>
+  <data name="Products_Helium_Header" xml:space="preserve">
+    <value>Helium</value>
+  </data>
+  <data name="Products_Helium_Large_Content" xml:space="preserve">
+    <value>Helium is a chemical element with symbol He and atomic number 2. It is a colorless, odorless, tasteless, non-toxic, inert, monatomic gas that heads the noble gas group in the periodic table. Its boiling and melting points are the lowest among the elements and it exists only as a gas except in extreme conditions.
+Helium is the second lightest element and is the second most abundant element in the observable universe, being present at about 24% of the total elemental mass, which is more than 12 times the mass of all the heavier elements combined. Its abundance is similar to this figure in the Sim and in Jupiter. This is due to the very high nuclear binding energy (per nucleon) of helium-4 with respect to the next three elements after helium. This helium-4 binding energy also accounts for why it is a product of both nuclear fusion and radioactive decay. Most helium in the universe is helium-4, and is believed to have been formed during the Big Bang. Large amounts of new helium are being created by nuclear fusion of hydrogen in stars.
+Helium is used in cryogenics (its largest single use, absorbing about a quarter of production), particularly in the cooling of superconducting magnets, with the main commercial application being in MRI scanners. Helium's other industrial uses—as a pressurizing and purge gas, as a protective atmosphere for arc welding and in processes such as growing crystals to make silicon wafers—account for half of the gas produced. A well-known but minor use is as a lifting gas in balloons and airships. As with any gas whose density differs from that of air, inhaling a small volume of helium temporarily changes the timbre and quality of the human voice. In scientific research, the behavior of the two fluid phases of helium-4 (helium I and helium II) is important to researchers studying quantum mechanics (in particular the property of super fluidity) and to those looking at the phenomena, such as superconductivity, produced in matter near absolute zero.
+While balloons are perhaps the most well-known use of helium, they are a minor part of all helium use. Helium is used for many purposes that require some of its unique properties, such as its low boiling point, low density, low solubility, high thermal conductivity, or inertness. Of the 2008 world helium total production of about 32 million kg (193 million standard cubic meters) helium per year, the largest use (about 22% of the total in 2008) is in cryogenic applications, most of which involves cooling the superconducting magnets in medical MRI scanners. Other major uses (totally about 60% of use in 1996) were pressurizing and purging systems, maintenance of controlled atmospheres, welding, and leak detection. Other uses by category were relatively minor fractions.
+Helium is used as a protective gas in growing silicon and germanium crystals, in titanium and zirconium production and in gas chromatography, because it is inert. Because of its inertness, thermally and calorically perfect nature, high speed of sound, and high value of the heat capacity ratio, it is also useful in supersonic wind tunnelsand impulse facilities.
+Helium is used as a shielding gas in arc welding processes on materials that at welding temperatures are contaminated and weakened by air or nitrogen. A number of inert shielding gases are used in gas tungsten arc welding, but helium is used instead of cheaper argon especially for welding materials that have higher heat conductivity, like aluminium or copper.</value>
+  </data>
+  <data name="Products_Helium_Small_Content" xml:space="preserve">
+    <value>Helium is a chemical element with symbol He and atomic number 2. It is a colorless, odorless, tasteless, non-toxic, inert, monatomic gas that heads the noble gas group in the perio...</value>
+  </data>
+  <data name="Products_Nitrogen_Header" xml:space="preserve">
+    <value>Nitrogen</value>
+  </data>
+  <data name="Products_Nitrogen_Large_Content" xml:space="preserve">
+    <value>Nitrogen, symbol N, is the chemical element of atomic number seven. At room temperature, it is a gas diatomic molecules and is colorless and odorless. Nitrogen is a common element in the universe, estimated at about seventh in total abundance in our galaxy and the Solar System. On Earth, the element is primarily found as the gas molecule; it forms about 78% of Earth's atmosphere. The element nitrogen was discovered as a separable component of air, by Scottish physidan Daniel Rutherford, in 1772.
+Many industrially important compounds, such as ammonia, nitric add, organic nitrates_(propellants and explosives), and cyanides, contain nitrogen. The extremely strong bond in elemental nitrogen dominates nitrogen chemistry, causing difficulty for both organisms and industry in converting the N2 into useful compounds, but at the same time causing release of large amounts of often useful energy when the compounds bum, explode, or decay back into nitrogen gas. Synthetically produced ammonia and nitrates_are key industrial fertilizers and fertilizer nitrates are key pollutants in causing the eutrophication of water systems.
+Nitrogen gas has a variety of applications, induding serving as an inert replacement for air where oxidation is undesirable
+As a modified atmosphere, pure or mixed with carbon dioxide, to preserve the freshness of packaged or bulk foods (by delaying randdity and other forms ofoxidative damage). Pure nitrogen as food additive is labelled in fire European Union with the E number E941.
+© In incandescent light bulbs as an inexpensive alternative to argon.
+© In photolithography in deep ultraviolet, to avoid a strong oxygen absorption.
+©Dried and pressurized, as a dielectric gas for high-voltage equipment.
+©The manufacturing of stainless steel.
+©Used in some aircraft fuel systems to reduce fire hazard, (see inerting system).
+©On top of liquid explosives as a safety measure.
+©Filling automotive and aircraft tires due to its inertness and lack of moisture or oxidative qualities, as opposed to air.
+© Industry
+© Nitrogen is used to protect flammable raw materials from any contact with Oxygen. By substantially reducing the risks of fire or explosion, the use of Nitrogen makes the handling of these materials much safer.
+© In the food industry, Nitrogen is used as a protective atmosphere, preventing from any contact between foodstuffs (chips, nuts, etc.) and Oxygen, since the latter could make them unfit for consumption.
+© Liquid Nitrogen (-196°C) is used to freeze food that can be cooled dramatically, a process that durably preserves their taste and texture.
+© The environment
+© Inflating tires with Nitrogen rather than air maintains tire pressure for a longer period of time. This in turn reduces the risks associated with under-inflated tires and lowers fuel consumption.
+© Worn down tires can be embrittled upon contact with liquid Nitrogen. Once they have been "cryocrushed", they are recycled instead of being burned.
+© Liquid Nitrogen is also used to reduce the emissions of volatile organic compounds (VO C s), which spark off ozone pollution peaks. These substances are industrially used as solvents or scavengers. After being cooled, these gases can be liquefied and trapped, and then recycled, which enables to avoid their release into air.
+© Health
+© In medicine and research, liquid Nitrogen (-196°C) is used to freeze and preserve blood, sperm, embryos, bone marrow cells and other live tissue samples, over periods that are theoretically unlimited.
+© Liquid Nitrogen is also used in dermatology, where it is one of the most effective ways to bum warts and small benign skin tumors that are nonetheless contagious.
+Liquid nitrogen is nitrogen in a liquid state at an extremely low temperature. It is produced industrially byfractional distillation of liquid air. Liquid nitrogen is a colorless clear liquid with density of 0.807 g/ml at itsboiling point and a dielectric constant of 1.43.Liquid nitrogen is often referred to by the abbreviation, L N 2or "LIN " or "L N" and has the U N number 1977. Liquid nitrogen is a diatomic liquid meaning the diatomic character of the covalent N bonding in N2 gas is retained even after liquefaction. Liquid nitrogen is a compact and readily transported source of nitrogen gas without pressurization. Further, its ability to maintain temperatures far below the freezing point of water makes it extremely useful in a wide range of applications, primarily as an open-cycle refrigerant, including:
+© in cryotherapy for removing unsightly or potentially malignant skin lesions such as warts and actinic keratosis © to store cells at low temperature for laboratory work © in cryogenics
+© in a Cryophorus to demonstrate rapid freezing by evaporation © as a backup nitrogen source in hypoxic air fire prevention systems © as a source of very dry nitrogen gas
+© for the immersion, freezing, and transportation of food products
+© for the cryopreservation of blood, reproductive cells (sperm and egg), and other biological samples and materials © to preserve tissue samples from surgical excisions for future studies
+© as a method of freezing water and oil pipes in order to work on them in situations where a valve is not available to block fluid flow to the work area, method known as "ice plug" - nowadays replaced by electrical heat pumps (for small pipe diameters)
+© in the process of promession, a way to dispose of the dead © for cryonic preservation in hopes of future reanimation.
+© to shrink-weld machinery parts together © as a coolant for CCD cameras in astronomy
+6) for a high-temperature superconductor to a temperature sufficient to achieve superconductivity for vacuum pump traps and in controlled-evaporation processes in chemistry.
+(D to increase the sensitivity of infrared homing seeker heads of missiles such as the Strela 3 $) to temporarily shrink mechanical components during machine assembly and allow improved interference fits for computers and extreme overclocking
+© for simulation of space background in vacuum chamber during spacecraft thermal testing ® in food preparation, such as for making ultra-smooth ice cream. See also molecular gastronomy.
+© in container inerting and pressurisation by injecting a controlled amount of liquid nitrogen just prior to sealing or capping.
+© as a cosmetic novelty giving a smoky, bubbling "cauldron effect" to drinks. See liquid nitrogen cocktail.
+© as an energy storage medium.
+© branding cattle.</value>
+  </data>
+  <data name="Products_Nitrogen_Small_Content" xml:space="preserve">
+    <value>Nitrogen is a chemical element with symbol N and atomic number 7. It is the lightest pnictogen, and at room temperature it is a transparent, odorless diatomic gas. Nitrogen is a co...</value>
+  </data>
+  <data name="Products_Oxygen_Header" xml:space="preserve">
+    <value>Oxygen</value>
+  </data>
+  <data name="Products_Oxygen_Large_Content" xml:space="preserve">
+    <value>Oxygen is a chemical element with symbol O and atomic number 8. It is a member of the challogen group on the periodic table and is a highly reactive nonmetallic element and oxidizing agent that readily forms compounds (notablyoxides) with most elements. By mass, oxygen is the third-most abundant element in the universe, after hydrogen and helium. At STP, two atoms of the element bind to form dioxygen, a diatomic gas that is colorless, odorless, and tasteless, with the formula 02.
+Smelting of iron ore into steel consumes 55% of commercially produced oxygen. In this process, 02 is injected through a high-pressure lance into molten iron, which removes sulfur impurities and excess carbon as the respective oxides, SO2 and C02. The reactions are exothermic, so the temperature increases to 1,700 °C.
+Another 25% of commercially produced oxygen is used by the chemical industry. Ethylene is reacted with 02 to create ethylene oxide, which, in turn, is converted into ethylene glycol; the primary feeder material used to manufacture a host of products, including antifreeze and polyester polymers (the precursors of many plastics and fabrics).
+Most of the remaining 20% of commercially produced oxygen is used in medical applications, metal cutting and welding, as an oxidizer in rocket fuel, and in water treatment. Oxygen is used in oxyacetylene welding burning acetylene with 02 to produce a very hot flame. In this process, metal up 60 cm thick is first heated with a small oxy-acetylene flame and then quickly cut by a large stream of O.
+Liquid oxygen — abbreviated LOx, LOX or Lox in the aerospace, submarine and gas industries — is one of the physical forms of elemental oxygen.
+In commerce, liquid oxygen is classified as an industrial gas and is widely used for industrial and medical purposes. Liquid oxygen is obtained from the oxygen found naturally in air by fractional distillation in a cryogenic air separation plant.
+Liquid oxygen is a common cryogenic liquid oxidizer propellant for spacecraft rocket applications, usually in combination with liquid hydrogen, kerosene ormethane. Liquid oxygen is useful in this role because it creates a high specific impulse.lt was used in the very first rocket applications like the V2missile (under the name A-Stoff and Sauerstoff) and Redstone, R-7 Semyorka, Atlas boosters, and the ascent stages of the Apollo Saturn rockets. Liquid oxygen was also used in some early ICB M s, although more modem ICB Ms do not use liquid oxygen because its cryogenic properties and need for regular replenishment to replace boiloff make it harder to maintain and launch quickly. Many modem rockets use liquid oxygen, including the main engines on the now-retired Space Shuttle.
+Liquid oxygen also had extensive use in making oxyliquit explosives, but is rarely used now due to a high rate of acddents.lt is also used in the activated sludge process in waste water treatment to maintain a high level of micro-organisms.</value>
+  </data>
+  <data name="Products_Oxygen_Small_Content" xml:space="preserve">
+    <value>Oxygen is a chemical element with symbol O and atomic number 8. It is a member of the challogen group on the periodic table and is a highly reactive nonmetallic element and oxidizi...</value>
+  </data>
+  <data name="Products_Propane_Header" xml:space="preserve">
+    <value>Propane</value>
+  </data>
+  <data name="Products_Propane_Large_Content" xml:space="preserve">
+    <value>Propane is a three-carbon alkane with the molecular formula C3H8, normally a gas, but compressible to a transportable liquid. A by-product of natural gas processing and petroleum refining, it is commonly used as a fuel forengines, oxy-gas torches, barbecues, portable stoves, and residential central heating. Propane is one of a group ofliquefled petroleum gases (LP gases). The others include butane, propylene, butadiene, butylene, isobutylene and mixtures thereof.
+Propane is a popular choice for barbecues and portable stoves because the low boiling point of -42 °C (--44 °F) makes it vaporize as soon as it is released from its pressurized container. Therefore, no carburetor or other vaporizing device is required; a simple metering nozzle suffices. Propane powers some locomotives, buses, forklifts, taxis and ice resurfacing machines and is used for heat and cooking in recreational vehicles and campers. Since it can be transported easily, it is a popular fuel for home heat and backup electrical generation in sparsely populated areas that do not have natural gas pipelines.
+Propane is generally stored and transported in steel cylinders as a liquid with a vapor space above the liquid. The vapor pressure in the cylinder is a function of temperature. When gaseous propane is drawn at a high rate, the latent heat of vaporisation required to create the gas will cause the bottle to cool. (This is why water often condenses on the sides of the bottle and then freezes). In addition, the lightweight, high-octane compounds vaporize before the heavier, low-octane ones. Thus, the ignition properties change as the cylinder empties. For these reasons, the liquid is often withdrawn using a dip tube. Propane is used as fuel in furnaces for heat, in cooking, as an energy source for water heaters, laundry dryers, barbecues, portable stoves, and motor vehicles.
+Commercially available "propane" fuel, or L PG, is not pure. Typically in the United States and Canada, it is primarily propane (at least 90%), with the rest mostly ethane, propylene, butane, and odorants including ethyl mercaptan.This is the HD-5 standard, (Heavy Duty-5% maximum allowable propylene content, and no more than5% butanes and ethane) defined by the American Society for Testing and Materials by its Standard 1835 for internal combustion engines. Not all products labeled "propane" conform to this standard however. In Mexico, for example, where much of the bottled liquefied gas sold is, in fact, butane, gas labeled "propane" may actually consist of 60% propane and 40% butane.</value>
+  </data>
+  <data name="Products_Propane_Small_Content" xml:space="preserve">
+    <value>Propan is a three-carbon alkane with the molecular formula C3H8, normally a gas, but compressible to a transportable liquid. A by-product of natural gas processing and petroleum re...</value>
+  </data>
+  <data name="ReadMore" xml:space="preserve">
+    <value>Read More</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="WhatWeDo" xml:space="preserve">
+    <value>What We Do</value>
+  </data>
+  <data name="WhatWeDoSubHeader" xml:space="preserve">
+    <value>The scope of services provided by RealGaz LLC is the following</value>
+  </data>
+  <data name="WhatWeDo_01_Content" xml:space="preserve">
+    <value>Provision of compressed, liquefied and bulk gases such as: Argon/ Liquid Argon (Ar)/ Argon gas mixtures, Carbon Dioxide/ Liquid Carbon Dioxide (CO2), Nitrogen/ Liquid Nitrogen (N2), Oxygen/Liquid Oxygen (O2), Helium (He), Compressed air, Hydrogen (H2), Propane (C3H8), Acetylene (C2H2), calibration gases and others.</value>
+  </data>
+  <data name="WhatWeDo_01_Header" xml:space="preserve">
+    <value>Supply of gases</value>
+  </data>
+  <data name="WhatWeDo_02_Header" xml:space="preserve">
+    <value>Supply and sale of gas cylinders</value>
+  </data>
+  <data name="WhatWeDo_02_Row1_Content" xml:space="preserve">
+    <value>* Varies capacity: 10-50 ltr</value>
+  </data>
+  <data name="WhatWeDo_02_Row2_Content" xml:space="preserve">
+    <value>* Working pressure: 150 bar, 200 bar, 230 bar, 300 bar</value>
+  </data>
+  <data name="WhatWeDo_03_Header" xml:space="preserve">
+    <value>Operations with cylinders</value>
+  </data>
+  <data name="WhatWeDo_03_Row1_Content" xml:space="preserve">
+    <value>* Inspection</value>
+  </data>
+  <data name="WhatWeDo_03_Row2_Content" xml:space="preserve">
+    <value>* Hydro-testing</value>
+  </data>
+  <data name="WhatWeDo_03_Row3_Content" xml:space="preserve">
+    <value>* Refurbishing</value>
+  </data>
+  <data name="WhatWeDo_03_Row4_Content" xml:space="preserve">
+    <value>* Repair</value>
+  </data>
+  <data name="WhatWeDo_03_Row5_Content" xml:space="preserve">
+    <value>* Coloring</value>
+  </data>
+  <data name="WhatWeDo_03_Row6_Content" xml:space="preserve">
+    <value>* Certification</value>
+  </data>
+  <data name="WhatWeDo_04_Header" xml:space="preserve">
+    <value>Sales of gas accessories</value>
+  </data>
+  <data name="WhatWeDo_04_Row1_Content" xml:space="preserve">
+    <value>* Gas regulators</value>
+  </data>
+  <data name="WhatWeDo_04_Row2_Content" xml:space="preserve">
+    <value>* Hoses</value>
+  </data>
+  <data name="WhatWeDo_04_Row3_Content" xml:space="preserve">
+    <value>* Fittings</value>
+  </data>
+  <data name="WhatWeDo_04_Row4_Content" xml:space="preserve">
+    <value>* Valves</value>
+  </data>
+  <data name="WhatWeDo_04_Row5_Content" xml:space="preserve">
+    <value>* Welding units: cutters, heaters, nozzles, etc.</value>
+  </data>
+  <data name="WhatWeDo_05_Header" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="WhatWeDo_05_Row1_Content" xml:space="preserve">
+    <value>* Transportation of dangerous goods</value>
+  </data>
+  <data name="WhatWeDo_05_Row2_Content" xml:space="preserve">
+    <value>* Utilization of waste cylinders</value>
+  </data>
+  <data name="WhatWeDo_05_Row3_Content" xml:space="preserve">
+    <value>* Supply of dry ice</value>
+  </data>
+  <data name="WhatWeDo_05_Row4_Content" xml:space="preserve">
+    <value>* Supply of refrigerants</value>
+  </data>
+  <data name="WhatWeDo_06_Header" xml:space="preserve">
+    <value>Fabrication</value>
+  </data>
+  <data name="WhatWeDo_06_Row1_Content" xml:space="preserve">
+    <value>* Design, fabrication and supply of cylinder racks</value>
+  </data>
+  <data name="WhatWeDo_06_Row2_Content" xml:space="preserve">
+    <value>* Design, installation, testing and commissioning of gas manifold systems</value>
+  </data>
+</root>

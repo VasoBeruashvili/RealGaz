@@ -1,0 +1,117 @@
+﻿@{
+    ViewBag.Title =Translator.Contacts;
+}
+
+@Html.Partial("NavigationMenuWithBackground")
+
+<link href="~/site/templates/css/mailform.css" rel="stylesheet" />
+
+<section class="well well7">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-xs-12">
+                <address class="h6">
+                    @Translator.OfficeAddress
+                </address>
+
+                <address class="addr1">
+
+                    <dl>
+                        <dt class="dt-contact-callinfo">@Translator.Phone:</dt>
+                        <dd>
+                            <a href='callto:#'> (+995) 32 240 46 10</a>
+                        </dd>
+                        <dt class="dt-contact-callinfo-last">@Translator.Mobile:</dt>
+                        <dd>
+                            <a href='callto:#'> (+995) 557 17 33 11</a>
+                        </dd>
+                        <dt></dt>
+                        <dd>
+                            <a href='callto:#'> (+995) 593 30 22 79</a>
+                        </dd>
+                        <dt></dt>
+                        <dd>
+                            <a href='callto:#'> (+995) 591 96 06 16</a>
+                        </dd>
+                    </dl>
+                </address>
+
+                <address class="addr1">
+                    <dl class="mail">
+                        <dt>@Translator.Email:</dt>
+                        <dd>
+                            <a href="mailto:info@realgaz.ge">info@realgaz.ge</a>
+                        </dd>
+                        <dt></dt>
+                        <dd>
+                            <a href="mailto:realgaz.georgia@gmail.com">realgaz.georgia@gmail.com</a>
+                        </dd>
+                    </dl>
+                    <h4>
+                        @Translator.FollowUs
+                    </h4>
+                    <dl>
+                        <dt>
+                            <ul class="link-list">
+                                <li>
+                                    <a href="https://www.facebook.com/RealGazLLC" target="_blank">
+                                        <span class="icon fa-facebook"></span>
+                                        Facebook
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/company/13189505?trk=tyah&trkInfo=clickedVertical%3Acompany%2CentityType%3AentityHistoryName%2CclickedEntityId%3Acompany_company_13189505%2Cidx%3A1" target="_blank">
+                                        <span class="icon fa-linkedin"></span>
+                                        LinkedIn
+                                    </a>
+                                </li>
+                            </ul>
+                        </dt>
+                    </dl>
+                </address>
+            </div>
+
+            <div class="col-md-8 col-xs-12">
+
+
+
+                <h3 class="text-center">
+                    @Translator.ContactForm
+                </h3>
+
+
+                <form class='mailform' method="post" data-type="contact">
+                    <div class="form-group name" data-add-placeholder>
+                        <label for="mailform-input-name">@Translator.Name</label>
+                        <input id="mailform-input-name"
+                               type="text"
+                               name="name"/>
+                    </div>
+
+                    <div class="form-group" data-add-placeholder>
+                        <label for="mailform-input-email">@Translator.Email</label>
+                        <input id="mailform-input-email"
+                               type="text"/>
+                    </div>
+
+                    <div class="form-group" data-add-placeholder>
+                        <label for="mailform-input-phone">@Translator.Phone</label>
+                        <input id="mailform-input-phone"
+                               type="text"
+                               name="phone"/>
+                    </div>
+
+                    <div class="form-group textarea" data-add-placeholder>
+                        <label for="mailform-input-textarea">@Translator.Comment</label>
+                        <textarea id="mailform-input-textarea"
+                                  name="message"></textarea>
+                    </div>
+
+                    <div class="form-group btn-wr">
+                        <button class="btn btn-default" type="submit">@Translator.Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

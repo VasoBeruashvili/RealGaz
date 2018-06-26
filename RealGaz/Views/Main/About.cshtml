@@ -1,0 +1,101 @@
+﻿@{
+    ViewBag.Title = Translator.About;
+}
+
+@Html.Partial("NavigationMenuWithBackground")
+
+<section class="well well7">
+    <div class="container">
+        <h3 class="text-center">
+            @Translator.About
+        </h3>
+
+        <p class="text-center">
+        <p>
+            @Translator.AboutText
+        </p>
+    </div>
+</section>
+
+<section class="well well7 parallax wow fadeIn" data-wow-duration="3s" data-url="/site/templates/images/parallax2-1.jpg"
+         data-mobile="true">
+    <div class="container center767">
+        <h3 class="text-center white">
+            @Translator.OurServices
+        </h3>
+
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="thumbnail thumbnail3">
+                    <img class="" src="~/site/templates/images/racs.jpg" alt="">
+
+                    <div class="caption">
+                        <h6 style="color:red;">
+                            <a>
+                                @Translator.OurServicesText_Col1_Header
+                            </a>
+                        </h6>
+
+                        <p class="white">
+                            @Translator.OurServicesText_Col1_Content
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="thumbnail thumbnail3">
+                    <img class="" src="~/site/templates/images/repair.jpg" alt="">
+
+                    <div class="caption">
+                        <h6 style="color:red;">
+                            <a>
+                                @Translator.OurServicesText_Col2_Header
+                            </a>
+                        </h6>
+
+                        <p class="white">
+                            @Translator.OurServicesText_Col2_Content
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="thumbnail thumbnail3">
+                    <img class="" src="~/site/templates/images/transport.jpg" alt="">
+
+                    <div class="caption">
+                        <h6 style="color:red;">
+                            <a>
+                                @Translator.OurServicesText_Col3_Header
+                            </a>
+                        </h6>
+
+                        <p class="white">
+                            @Translator.OurServicesText_Col3_Content
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="thumbnail thumbnail3">
+                    <img class="" src="~/site/templates/images/utilization2.jpg" alt="">
+
+                    <div class="caption">
+                        <h6 style="color:red;">
+                            <a>
+                                @Translator.OurServicesText_Col4_Header
+                            </a>
+                        </h6>
+
+                        <p class="white">
+                            @Translator.OurServicesText_Col4_Content
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+@Html.Partial("WhatWeDo")

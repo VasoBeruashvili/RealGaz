@@ -1,0 +1,35 @@
+﻿<div id="stuck_container" class="stuck_container">
+    <nav class="navbar navbar-default navbar-static-top ">
+        <div class="container">
+            <div class="navbar-header">
+                <h1 class="navbar-brand">
+                    <a href="./"><img src="~/site/templates//images/logo-realgaz.png" style="height: 48px; vertical-align: sub;"></a>
+                </h1>
+            </div>
+
+            <ul class="navbar-nav sf-menu navbar-right" data-type="navbar">
+                <li class="@Html.IsSelected("index", "main", "active")">
+                    @Html.ActionLink(Translator.Home, "index")
+                </li>
+                <li class="@Html.IsSelected("about", "main", "active")">
+                    @Html.ActionLink(Translator.About, "about", "main")
+                </li>
+                <li class="@Html.IsSelected("products:product_details", "main", "active")">
+                    @Html.ActionLink(Translator.Products, "products", "main")
+                </li>
+                <li class="@Html.IsSelected("contact", "main", "active")">
+                    @Html.ActionLink(Translator.Contacts, "contact", "main")
+                </li>
+
+                <li class='dropdown'>
+                    <a href="#">@Html.SetCurrentLanguageIndicator(Request.Cookies["Language"]?.Value)</a>
+                    <ul class="dropdown-menu">
+                        <li style="@Html.HideSelectedLanguage("ka-GE", Request.Cookies["Language"]?.Value)">@Html.ActionLink("GE", "change", "language", new { lang = "ka-GE" }, null)</li>
+                        <li style="@Html.HideSelectedLanguage("en-US", Request.Cookies["Language"]?.Value)">@Html.ActionLink("EN", "change", "language", new { lang = "en-US" }, null)</li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+</div>
